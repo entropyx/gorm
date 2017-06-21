@@ -32,7 +32,7 @@ type DB struct {
 
 // Open initialize a new db connection, need to import driver first, e.g:
 //
-//     import _ "github.com/go-sql-driver/mysql"
+//     import _ "github.com/entropyx/mysql"
 //     func main() {
 //       db, err := gorm.Open("mysql", "user:password@/dbname?charset=utf8&parseTime=True&loc=Local")
 //     }
